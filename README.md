@@ -15,8 +15,10 @@ A abordagem será analisar dois datasets: um de um período antes da implantaç�
 Dados no http://portal.inep.gov.br/web/guest/microdados
 
 *Os dados sobre o Curso Superior começam a ter o campo raça/cor a partir de 2007.*
+*Os dados referentes a Alunos só passam a existir a partir de 2009.*
 
-Periodos:
+
+Períodos:
 > 2016 e ?
 
 2016, após baixar os dados do período de 2016, você encontrará na pasta:
