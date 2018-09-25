@@ -10,32 +10,15 @@ A abordagem será analisar dois datasets: um de um período antes da implantaç�
 
 2. Propor abordagens para utilização de tais algoritmos sobre datasets como estes que não potencializem opressões já existentes.
 
+## Wiki
+
+Aqui vc encontra informações gerais sobre a base de dados e como executar o projeto utilizando o Jupyter Notebook.
+
 ## Dataset
 
 Dados no http://portal.inep.gov.br/web/guest/microdados
 
-*Os dados sobre o Curso Superior começam a ter o campo raça/cor a partir de 2007.*
-*Os dados referentes a Alunos só passam a existir a partir de 2009.*
-
-
-Períodos:
-> 2016 e ?
-
-2016, após baixar os dados do período de 2016, você encontrará na pasta:
-> ANEXOS/ANEXO 1 - Dicionario de dados e tabelas auxiliares/Dicionário de Dados.xls
-
-> DADOS/DM_ALUNO.csv
-
-> Tamanho: ~5GB
-
-## Executar o Jupyter notebook
-
-Com Docker:
-
-`docker build -t inep-curso-superior`
-
-`docker run --rm -it -p 8888:8888 -v "$(pwd):/notebooks" inep-curso-superior /bin/bash`
 
 ## Quadro de atividades
 
-No quadro em estilo Kanban https://github.com/fighting-back-bias-lab/inep-curso-superior-pessoas-negras/projects/1 se encontra os status das issues e a(s) pessoa(s) responsáveis 
+No quadro em estilo Kanban https://github.com/fighting-back-bias-lab/inep-curso-superior-pessoas-negras/projects/1 se encontra os status das issues e a(s) pessoa(s) responsáveis.
