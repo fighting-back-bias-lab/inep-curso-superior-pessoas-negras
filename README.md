@@ -42,5 +42,5 @@ Com Docker:
     to login with a token:
         http://(b41990cc3348 or 127.0.0.1):8888/?token=154899aebefe13fddac3d9f63f2943b030fcfbc00db5d7fc
   ```
-- Navegue pelos arquivos e escolha como iniciar seu trabalho.
+- Na imagem abaixo vá em `new -> Python 3` e inicie suas análises com o Jupyter.
   ![imagem do jupter](./DATA/jupyter.png)
