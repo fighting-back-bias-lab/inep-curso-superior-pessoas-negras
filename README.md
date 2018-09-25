@@ -33,3 +33,7 @@ Com Docker:
 `docker build -t inep-curso-superior`
 
 `docker run --rm -it -p 8888:8888 -v "$(pwd):/notebooks" inep-curso-superior /bin/bash`
+
+## Quadro de atividades
+
+No quadro em estilo Kanban https://github.com/fighting-back-bias-lab/inep-curso-superior-pessoas-negras/projects/1 se encontra os status das issues e a(s) pessoa(s) responsáveis 
