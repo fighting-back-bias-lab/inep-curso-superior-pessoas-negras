@@ -30,6 +30,17 @@ Periodos:
 
 Com Docker:
 
-`docker build -t inep-curso-superior`
-
-`docker run --rm -it -p 8888:8888 -v "$(pwd):/notebooks" inep-curso-superior /bin/bash`
+Com Docker:
+- Cole o arquivo `.CSV` dentro da pasta `DATA`.
+- Vá para o terminal, entre na pasta do projeto e execute o comando abaixo.
+  ```SH
+  docker run --rm -it -v `pwd`:/home/jovyan/work -p 8888:8888 jupyter/datascience-notebook jupyter notebook
+  ```
+- Será gerado uma mensagem como no exemplo abaixo, substitua os valores `http://(b41990cc3348 or 127.0.0.1)` por `localhost` e cole no navegador para abrir o jupter.
+  ```SH
+  Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(b41990cc3348 or 127.0.0.1):8888/?token=154899aebefe13fddac3d9f63f2943b030fcfbc00db5d7fc
+  ```
+- Navegue pelos arquivos e escolha como iniciar seu trabalho.
+  ![imagem do jupter](./DATA/jupyter.png)
