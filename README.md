@@ -12,7 +12,7 @@ A abordagem será analisar dois datasets: um de um período antes da implantaç�
 
 ## Wiki
 
-Aqui vc encontra informações gerais sobre a base de dados e como executar o projeto utilizando o Jupyter Notebook.
+Aqui vc encontra informações gerais sobre a base de dados e como executar o projeto utilizando o Jupyter Notebook:  https://github.com/fighting-back-bias-lab/inep-curso-superior-pessoas-negras/wiki/P%C3%A1gina-principal
 
 ## Dataset
 
