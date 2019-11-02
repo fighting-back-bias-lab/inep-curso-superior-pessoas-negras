@@ -18,6 +18,20 @@ Aqui vc encontra informações gerais sobre a base de dados e como executar o pr
 
 Dados no http://portal.inep.gov.br/web/guest/microdados
 
+## Com Docker:
+- Cole o arquivo `.CSV` dentro da pasta `DATA`.
+- Vá para o terminal, entre na pasta do projeto e execute o comando abaixo.
+  ```SH
+  docker run --rm -it -v `pwd`:/home/jovyan/work -p 8888:8888 jupyter/datascience-notebook jupyter notebook
+  ```
+- Será gerado uma mensagem como no exemplo abaixo, substitua os valores `http://(b41990cc3348 or 127.0.0.1)` por `localhost` e cole no navegador para abrir o jupter.
+  ```SH
+  Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://(b41990cc3348 or 127.0.0.1):8888/?token=154899aebefe13fddac3d9f63f2943b030fcfbc00db5d7fc
+  ```
+- Na imagem abaixo vá em `new -> Python 3` e inicie suas análises com o Jupyter.
+  ![imagem do jupter](./DATA/jupyter.png)
 
 ## Quadro de atividades
 
